@@ -1,0 +1,71 @@
+.TH duzyskrypt.sh 1 "20 May 2024" "1.0.2" "duzyskrypt.sh Manual"
+
+.SH NAME
+duzyskrypt.sh - Script for zipping and unzipping files or folders using Zenity.
+
+.SH SYNOPSIS
+.B duzyskrypt.sh
+.RI [ options ]
+
+.SH DESCRIPTION
+The \fBduzyskrypt.sh\fP script allows users to zip or unzip files or folders with a graphical interface provided by Zenity. It supports password protection for zip files and creating new directories for the archived files.
+
+.SH OPTIONS
+.TP
+.BR \-v
+Displays version information and the author of the script.
+.TP
+.BR \-h
+Shows the help message, explaining how to use the script.
+
+.SH USAGE
+The script provides a Zenity-based graphical interface for selecting files and directories. Users can choose between packing (zipping) and unpacking (unzipping) files.
+
+.TP
+\fIPack files\fP
+.TP 
+1. Select files to zip (files names should not contain spaces).
+.TP
+2. Choose the destination directory.
+.TP
+3. Optionally, provide a name for a new directory where the zip file will be stored.
+.TP
+4. Optionally, set a password for the zip file.
+.TP
+5. Provide a name for the zip file.
+.TP
+6. The files are then zipped, and the zip file is moved to the destination directory.
+
+.TP
+\fIUnpack files\fP
+.TP
+1. Select the zip file to unzip.
+.TP
+2. Choose the destination directory.
+.TP
+3. The zip file is then unzipped into the chosen directory.
+
+.SH EXAMPLES
+.TP
+.B duzyskrypt.sh \-v
+Displays version information.
+.TP
+.B duzyskrypt.sh \-h 
+Shows the help message.
+.TP
+.B duzyskrypt.sh
+Starts the script, tells the user to choose between packing and unpacking files via Zenity dialog boxes.
+
+.SH AUTHOR
+Karolina Glaza (198193)
+
+.SH REPORTING BUGS
+Report bugs to the author.
+
+.SH COPYRIGHT
+This is an opensource.
+
+.SH SEE ALSO
+.BR zenity (1),
+.BR zip (1),
+.BR unzip (1)
