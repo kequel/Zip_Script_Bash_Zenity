@@ -1,6 +1,6 @@
 # Zip Script
 
-Zip Script is my first simple Bash script designed for zipping and unzipping files or folders via graphical interface using Zenity eveloped as part of the Operating Systems course in my second semester at Gdańsk University of Technology. It offers both basic functionality for compressing and decompressing files, as well as password protection and creating custom directories for the archived files.
+Zip Script is my first simple Bash script designed for zipping and unzipping files or folders via graphical interface using Zenity developed as part of the Operating Systems course in my second semester at Gdańsk University of Technology. It offers both basic functionality for compressing and decompressing files, as well as password protection and creating custom directories for the archived files.
 
 ## Author
 - Karolina Glaza [GitHub](https://github.com/kequel)
